@@ -3,22 +3,78 @@
     padding: 0;
     box-sizing: border-box;
 }
-#fundo{
+@font-face {
+    font-family: 'fonte';
+    src: url(ArchivoBlack-Regular.ttf);
+}
+@font-face {
+    font-family: 'fonte1';
+    src: url(NewsCycle-Regular.ttf);
+}
+#cabecalho{
     background-color: rgb(60, 2, 2);
     width: 100%;
     height: 50vh;
 }
-#quemsomos{
+#cafe{
     background-color:rgb(185, 185, 185);
+    width: 100%;
+    height: 70vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.falacafe{
+    background-color: aqua;
+    width: 50%;
+    height: 50vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+
+    text-align: center;
+    overflow: hidden;
+    animation-name: falacafe 5s;
+
+}
+h1.fonte{
+    font-family: 'fonte';
+}
+h5.fonte1{
+    font-family: 'fonte1';
+}
+@keyframes falacafe {
+  from {
+    transform: translateX(-100vh);
+  }
+
+  to {
+    transform: translateX(100vh);
+  }
+}
+
+
+#imgcafe{
+    background-color: black;
+    width: 50%;
+    height: 50vh;
+}
+#carousel{
     width: 100%;
     height: 100vh;
 }
-#serviços{
+#cfplace{
     background-color: rgb(185, 185, 185);
     width:100% ;
-    height: 100vh;
+    height: 70vh;
 }
-#fundo1{
+#rodape{
     background-color: rgb(60, 2, 2);
     width: 100%;
     height: 50vh;
