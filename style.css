@@ -5,11 +5,11 @@
 }
 @font-face {
     font-family: 'fonte';
-    src: url(ArchivoBlack-Regular.ttf);
+    src: url(HEINEKEN.TTF);
 }
 @font-face {
     font-family: 'fonte1';
-    src: url(NewsCycle-Regular.ttf);
+    src: url(SairaCondensed-Thin.ttf);
 }
 #cabecalho{
     background-color: rgb(60, 2, 2);
@@ -25,11 +25,19 @@
     justify-content: center;
     align-items: center;
     
-
+}
+@keyframes falacafes {
+    0% {
+      transform: translateX(-500px);
+    }
+  
+    100% {
+      transform: translateX(30px);
+    }
 }
 
-.falacafe{
-    background-color: aqua;
+#falacafe{
+
     width: 50%;
     height: 50vh;
 
@@ -38,9 +46,10 @@
     justify-content: center;
     align-items: end;
 
-    text-align: center;
+    text-align: end;
     overflow: hidden;
-    animation-name: falacafe 5s;
+    animation: falacafes 3s;
+    animation-timing-function: ease;
 
 }
 h1.fonte{
@@ -49,21 +58,16 @@ h1.fonte{
 h5.fonte1{
     font-family: 'fonte1';
 }
-@keyframes falacafe {
-  from {
-    transform: translateX(-100vh);
-  }
 
-  to {
-    transform: translateX(100vh);
-  }
-}
 
 
 #imgcafe{
-    background-color: black;
     width: 50%;
-    height: 50vh;
+    height: 60vh;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 #carousel{
     width: 100%;
