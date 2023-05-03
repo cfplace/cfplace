@@ -4,33 +4,93 @@
     box-sizing: border-box;
 }
 
-#fundo{
+@font-face {
+    font-family: saira;
+    src: url(./SairaCondensed-Thin.ttf);
+}
+
+@font-face {
+    font-family: Sigmar;
+    src: url(Sigmar-Regular.ttf);
+}
+
+#cabecalho{
+    background-color: rgb(60,2,2); 
+    width:100% ;
+    height:50vh ;
+   
+}
+
+#cafe{
+    background-color: rgb(224,224,224);
+    width: 100%;
+    height: 70vh;
+
+}
+
+#cfplace{
+    
+    background-color: rgb(224,224,224);
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+
+    font-family: saira;
+    font-size: 18px;
+}    
+
+
+#rodape{
     background-color: rgb(60,2,2); 
     width:100% ;
     height:50vh ;
 }
 
 #quemsomos{
-    background-color: rgb(185,185,185);
-    width: 100%;
-    height: 100vh;
-
+    display: flex;
+    width: 50%;
+    height: 50vh;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 20px;
+    text-align: end;
 }
 
 #serviços{
-    background-color: rgb(185,185,185);
-    width: 100%;
-    height: 100vh;
-    align-items: center;
+    width: 50%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    
 }
 
-#fundo1{
-    background-color: rgb(60,2,2); 
-    width:100% ;
-    height:50vh ;
+.FONT{
+font-family: Sigmar;
+font-size: 34px;
 }
 
-#h1{
+
+
+#divisória{
+    height: 40vh;
+    width: 5px;
     display: flex;
     justify-content: center;
+    align-items: center;
+    background-color: rgb(60,2,2);
+    margin-top: 20px;
+}
+
+#empresa{
+    width: 50%;
+    
+}
+
+#conteiner{
+    width: 50%;
+    align-items: center;
 }
