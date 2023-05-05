@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'fonte';
+    src: url(HEINEKEN.TTF);
+}
+@font-face {
+    font-family: 'fonte1';
+    src: url(SairaCondensed-Thin.ttf);
+}
+
+@font-face {
+    font-family: Sigmar;
+    src: url(Sigmar-Regular.ttf);
+}
+
+#cabecalho{
+    background-color: rgb(60, 2, 2);
+    width: 100%;
+    height: 50vh;
+}
+#cafe{
+    background-color:rgb(224, 224, 224);
+    width: 100%;
+    height: 70vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+@keyframes falacafes {
+    0% {
+      transform: translateX(-500px);
+    }
+  
+    100% {
+      transform: translateX(30px);
+    }
+}
+
+#falacafe{
+
+    width: 50%;
+    height: 50vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+
+    text-align: end;
+    overflow: hidden;
+    animation: falacafes 3s;
+    animation-timing-function: ease;
+
+}
+h1.fonte{
+    font-family: 'fonte';
+}
+h5.fonte1{
+    font-family: 'fonte1';
+}
+
+
+
+#imgcafe{
+    width: 50%;
+    height: 60vh;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#carousel{
+    width: 100%;
+    height: 100vh;
+}
+#cfplace{
+    
+    background-color: rgb(224,224,224);
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+
+    font-family: saira;
+    font-size: 18px;
+} 
+#rodape{
+    background-color: rgb(60, 2, 2);
+    width: 100%;
+    height: 50vh;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 50vh; 
+
+    
+
+}
+
+#quemsomos{
+    display: flex;
+    width: 50%;
+    height: 50vh;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 20px;
+    text-align: end;
+}
+
+#serviços{
+    width: 50%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    
+}
+
+.FONT{
+font-family: Sigmar;
+font-size: 34px;
+}
+
+
+
+#divisória{
+    height: 40vh;
+    width: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(60,2,2);
+    margin-top: 20px;
+}
+
+#empresa{
+    width: 50%;
+    
+}
+
+#conteiner{
+    width: 50%;
+    align-items: center;
+}
