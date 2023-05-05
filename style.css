@@ -44,13 +44,13 @@
 
 #falacafe{
 
-    width: 50%;
+    width: 60%;
     height: 50vh;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: end;
+    align-items: flex-end;
 
     text-align: end;
     overflow: hidden;
@@ -64,21 +64,22 @@ h1.fonte{
 h5.fonte1{
     font-family: 'fonte1';
 }
-
+h3.fonte1{
+    font-family: 'fonte1';
+}
 
 
 #imgcafe{
-    width: 50%;
-    height: 60vh;
+    width: 40%;
+    height: 70vh;
+   
     
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
 }
-#carousel{
-    width: 100%;
-    height: 100vh;
-}
+
 #cfplace{
     
     background-color: rgb(224,224,224);
@@ -86,29 +87,19 @@ h5.fonte1{
     height: 70vh;
     display: flex;
     justify-content: center;
-    justify-items: center;
+
 
     font-family: saira;
     font-size: 18px;
 } 
-#rodape{
-    background-color: rgb(60, 2, 2);
-    width: 100%;
-    height: 50vh;
-
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 50vh; 
-
+#quemsomos{
+    width: 50%;
+    height: 70vh;
     
 
-}
-
-#quemsomos{
     display: flex;
-    width: 50%;
-    height: 50vh;
-    flex-direction: column;
+    flex-direction:column;
+    justify-content: center;
     align-items: flex-end;
     padding: 20px;
     text-align: end;
@@ -116,11 +107,15 @@ h5.fonte1{
 
 #serviços{
     width: 50%;
-    height: 50vh;
+    height: 70vh;
+   
+
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: flex-start;
     padding: 20px;
+   
     
 }
 
@@ -132,11 +127,11 @@ font-size: 34px;
 
 
 #divisória{
-    height: 40vh;
+    height: 63vh;
     width: 5px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
+    align-items: flex-start;
     background-color: rgb(60,2,2);
     margin-top: 20px;
 }
@@ -149,4 +144,12 @@ font-size: 34px;
 #conteiner{
     width: 50%;
     align-items: center;
+}
+#rodape{
+    background-color: rgb(60, 2, 2);
+    width: 100%;
+    height: 50vh;
+
+    
+
 }
