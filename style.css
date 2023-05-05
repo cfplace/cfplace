@@ -145,11 +145,104 @@ font-size: 34px;
     width: 50%;
     align-items: center;
 }
-#rodape{
-    background-color: rgb(60, 2, 2);
+
+
+footer{
+    background-color: rgb(60,2,2);
     width: 100%;
-    height: 50vh;
+    height: 40vh;
+    display: flex;
+}
+#logo{
+    width: 25%;
+    height: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+#contatos{
+    background-color: rgb(60,2,2);
+    width: 20%;
+    height: 135px;
+    padding: 20px;
+    color: #ffff;
+
+    text-align: center;
+    
+   
+}
+
+#sociais{
+    background-color: rgb(60,2,2);
+    width: 25%;
+    height: 100%;
+    padding: 20px;
+    color: #ffff;
+
+    text-align: center;
 
     
+}
+#apps{
+    background-color: rgb(60,2,2);
+    width: 25%;
+    height: 100%;
+    padding: 20px;
+    color: #ffff;
+    
+    text-align: center;
+}
+
+#icons1{
+    display: flex;
+    height: 100px;
+    left: 50px;
+    
+    
+}
+
+#playstore{
+    padding-left: 70px;
+    padding-top: 39px;
+    color: #ffff;
+  
+}
+#appstore{
+    padding-top: 39px;
+    padding-left: 20px; 
+}
+#icons2{
+    display: flex;
+}
+#instagram{
+    padding-top: 40px;
+    padding-left: 33px;
+}
+#facebook{
+    padding-top: 40px;
+    padding-left: 20px;
+    
+}
+
+#icons3{
+    display: flex;
+}
+#gmail{
+    padding-left: 30px;
+    padding-top: 20px;
+    color:#ffff
+}
+#telefone{
+    padding-left: 30px;
+    padding-top: 20px;
+    color: #ffff;
+}
+#rua{
+    padding-left: 75px;
+    color: #ffff;
 
 }
+
+
